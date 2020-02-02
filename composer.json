@@ -1,0 +1,23 @@
+{
+	"description": "",
+	"name": "tutor/php",
+	"authors": [
+		{
+			"name": "villageworks-tutor",
+			"email": "villageworks2103@gmail.com"
+		}
+	],
+	"require": {
+        "felixfbecker/language-server": "*"
+    },
+	"require-dev": {
+		"phpunit/phpunit": "^8.0",
+	    "phpunit/dbunit" : "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"application\\": "application/",
+			"test\\": "test/"
+		}
+	}
+}

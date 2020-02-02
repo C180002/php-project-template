@@ -1,0 +1,19 @@
+# for eclipse IDE
+/.settings/
+/.buildpath
+/.project
+
+# for vscode editor
+/.vscode
+
+# for PHP engine
+/vendor/
+
+# for sass
+.sass-cache/
+
+# for others
+.~lock*
+*.lock
+*.dat
+*.tab
